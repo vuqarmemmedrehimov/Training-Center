@@ -1,0 +1,393 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  background:
+    linear-gradient(to right, #00000072, #00000072) center/cover,
+    url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/015d2351fef654cab7415011/pexels-photo-1438072.jpeg")
+      center/cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font: 700 2em Roboto;
+  color: #fff;
+}
+
+header h5 {
+  font: 700 30px Roboto;
+  color: #fff;
+  letter-spacing: 4px;
+  padding-top: 42px;
+}
+
+header p {
+  font: 1em "Open Sans";
+  color: #fff;
+  padding-top: 8px;
+  width: 85%;
+}
+
+.btn3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding-top: 40px;
+}
+.btn3 button {
+  padding: 10px 30px;
+  background: #f1c50e;
+  color: #111;
+  border-radius: 25px;
+  font: 700 14px "Open Sans";
+  text-transform: uppercase;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.allwords .img {
+  display: flex;
+  justify-content: center;
+}
+
+.allwords img {
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+}
+
+.words {
+  padding: 0 10px 30px 10px;
+}
+
+.words h2 {
+  padding-top: 20px;
+  font: 700 2em Roboto;
+}
+
+.words h6 {
+  padding-top: 24px;
+  font: 700 1.1em Roboto;
+}
+
+.words p {
+  padding-top: 20px;
+  font: 400 1em/2 Montserrat;
+  text-align: justify;
+}
+
+.abp {
+  font: 400 1.2em/2 Montserrat;
+  text-align: justify;
+  padding: 10px;
+}
+
+.card {
+  width: 90%;
+  margin: auto;
+  padding: 30px;
+}
+
+#orangecard {
+  background-color: #f1c50e;
+  color: #fff;
+}
+
+#orangecard p {
+  font: 700 1em/1.5 "Open Sans";
+  text-align: justify;
+  padding-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 20px;
+}
+
+#orangecard i {
+  font-size: 1.5em;
+  margin-right: 5px;
+}
+
+#graycard {
+  background-color: #f2f2f2;
+}
+
+.card i {
+  color: #f1c50e;
+  font-size: 2em;
+}
+
+.card h2 {
+  font: 700 1.5em Roboto;
+}
+
+.card p {
+  padding-top: 17px;
+  font: 1em/1.5 "Open Sans";
+}
+
+.bggray {
+  background-color: #f2f2f2;
+}
+
+#art {
+  padding: 40px 0 60px;
+}
+
+#art h2 {
+  padding: 0 0 40px;
+  font: 700 1.8em Roboto;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  gap: 15px;
+}
+
+article {
+  background-color: #fff;
+  padding: 30px;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+article h4 {
+  padding: 12px 0 30px;
+  font: 700 1.5em Roboto;
+}
+
+article p {
+  font: 400 1em/1.5 "Open Sans";
+}
+
+.orgabout {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #f1c50e;
+  color: #fff;
+}
+
+.orgabout img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.orgabout h2 {
+  padding: 20px 0;
+  font: 700 2em Roboto;
+}
+
+.orgabout p {
+  font: 1em 'Open Sans';
+  padding-bottom: 20px;
+}
+
+.orgabout a {
+  font-size: 64px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.info h3 {
+  font: 700 3em Montserrat;
+  color: #f1c50e;
+}
+
+.info h5 {
+  padding: 20px 0;
+  font: 600 1em 'Open Sans';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.info p {
+  font: 1em 'Open Sans';
+}
+
+#mtteam {
+  padding: 60px 10px;
+}
+
+#mtteam h2 {
+  text-align: center;
+  padding-bottom: 40px;
+  font: 400 2em Roboto;
+}
+
+.team4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.team img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 13px solid #f1c50e;
+}
+
+.team h4 {
+  padding: 40px 0 30px;
+  font: 400 1.5em Roboto;
+}
+
+.team p {
+  font: 400 1em/1.5 'Open Sans';
+  padding-bottom: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 72px;
+    width: 50%;
+  }
+
+  header p {
+    width: 40%;
+  }
+
+  .btn3 {
+    flex-direction: row;
+  }
+
+  .words h2 {
+    padding-top: 60px;
+    font-size: 3em;
+  }
+
+  .allwords {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about {
+    max-width: 80%;
+    margin: auto;
+    padding: 80px 0;
+  }
+
+  .allwords .img img {
+    width: 380px;
+    height: 435px;
+    object-position: 75% 50%;
+  }
+
+  .words {
+    padding-left: 60px;
+  }
+
+  .card3 {
+    display: flex;
+  }
+
+  .card {
+    width: 25%;
+  }
+
+  .row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1140px;
+    margin: auto;
+  }
+
+  article {
+    width: 30%;
+  }
+
+  #art h2 {
+    font-size: 3em;
+  }
+
+  #secinfo {
+    max-width: 1140px;
+    margin: auto;
+    display: flex;
+    padding: 60px 0;
+  }
+
+  .orgabout {
+    max-width: 50%;
+  }
+
+  .orgabout h2 {
+    font-size: 3em;
+  }
+
+  .info4 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .info {
+    max-width: 50%;
+  }
+
+  #mtteam h2 {
+    font-size: 3em;
+  }
+
+  .team4 {
+    max-width: 1140px;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .team {
+    max-width: 23%;
+  }
+}
