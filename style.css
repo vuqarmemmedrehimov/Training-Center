@@ -14,11 +14,55 @@ header {
     url("https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/015d2351fef654cab7415011/pexels-photo-1438072.jpeg")
       center/cover;
   height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  background-color: #fff;
+}
+
+nav button {
+  background-color: transparent;
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.drop-cont {
+  display: none;
+  position: absolute;
+  left: 3px;
+  background-color: #111111d5;
+  border-radius: 10px;
+  width: 200px;
+  height: 92vh;
+  z-index: 1;
+}
+
+.drop-cont ul li {
+  font: 1em 'Open Sans';
+  color: #fff;
+  padding: 8px 0 8px 10px;
+}
+
+.dropdown:hover .drop-cont {
+  display: block;
+}
+
+.headtext {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
+  height: 90vh;
 }
 
 h1 {
@@ -26,14 +70,14 @@ h1 {
   color: #fff;
 }
 
-header h5 {
+.headtext h5 {
   font: 700 30px Roboto;
   color: #fff;
   letter-spacing: 4px;
   padding-top: 42px;
 }
 
-header p {
+.headtext p {
   font: 1em "Open Sans";
   color: #fff;
   padding-top: 8px;
@@ -295,7 +339,7 @@ article p {
     width: 50%;
   }
 
-  header p {
+  .headtext p {
     width: 40%;
   }
 
