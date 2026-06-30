@@ -47,7 +47,7 @@ nav button {
 }
 
 .drop-cont ul li {
-  font: 1em 'Open Sans';
+  font: 1em "Open Sans";
   color: #fff;
   padding: 8px 0 8px 10px;
 }
@@ -255,7 +255,7 @@ article p {
 }
 
 .orgabout p {
-  font: 1em 'Open Sans';
+  font: 1em "Open Sans";
   padding-bottom: 20px;
 }
 
@@ -279,13 +279,13 @@ article p {
 
 .info h5 {
   padding: 20px 0;
-  font: 600 1em 'Open Sans';
+  font: 600 1em "Open Sans";
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .info p {
-  font: 1em 'Open Sans';
+  font: 1em "Open Sans";
 }
 
 #mtteam {
@@ -329,7 +329,7 @@ article p {
 }
 
 .team p {
-  font: 400 1em/1.5 'Open Sans';
+  font: 400 1em/1.5 "Open Sans";
   padding-bottom: 15px;
 }
 
@@ -388,6 +388,14 @@ article p {
     margin: auto;
   }
 
+  #cards {
+    transition: 0.5s;
+  }
+
+  #cards:hover {
+    transform: translate(0, -10px);
+  }
+
   article {
     width: 30%;
   }
@@ -433,5 +441,10 @@ article p {
 
   .team {
     max-width: 23%;
+    transition: .5s;
+  }
+
+  .team:hover{
+    transform: translate(0, -10px);
   }
 }
